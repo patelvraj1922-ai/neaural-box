@@ -4,7 +4,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 
 // --- API CONFIGURATION ---
-const API_URL = "http://localhost:5000/api/chat";
+const API_URL = "https://neaural-box.onrender.com";
 
 const generateResponse = async (history, userMessage) => {
   try {
